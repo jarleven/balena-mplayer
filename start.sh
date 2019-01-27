@@ -12,6 +12,7 @@ if [ $APP -eq "1" ]; then
    sleep 10
    mplayer -cache ${CACHE} \
         -quiet \
+        -vo fbdev2 \
         -volume $VOLUME \
         $URL
   done
