@@ -14,3 +14,11 @@ mplayer -cache ${CACHE} \
 #    do mplayer $URL -cache ${CACHE} -volume $VOLUME -quiet
 #    sleep 2
 # done
+
+
+
+#
+# Consider parameter to select ffmpeg, VLC and so on
+#
+#
+#
